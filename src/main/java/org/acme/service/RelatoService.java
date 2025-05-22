@@ -35,7 +35,6 @@ public class RelatoService {
             existente.setDataHora(novoRelato.getDataHora());
             existente.setIdUsuario(novoRelato.getIdUsuario());
             existente.setIdEstacao(novoRelato.getIdEstacao());
-            existente.setIdProblemaComum(novoRelato.getIdProblemaComum());
             repository.update(existente);
             return true;
         }
