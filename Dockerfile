@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine
 
 # Instala bash (necessário para rodar ./mvnw corretamente em Alpine)
 RUN apk add --no-cache bash
